@@ -1,0 +1,68 @@
+.kzui-select {
+  position: relative;
+  width: 300px;
+}
+
+.kzui-select__search {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.kzui-select__placeholder {
+  padding: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.kzui-select__clear {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.kzui-select__menu {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.kzui-select__option {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.kzui-select__option:hover {
+  background-color: #f0f0f0;
+}
+
+.kzui-select__group {
+  padding: 8px;
+}
+
+.kzui-select__group-label {
+  font-weight: bold;
+}
+
+.kzui-select--disabled .kzui-select__placeholder {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.kzui-select__option--selected {
+  background-color: #d0eaff;
+}
+
+.kzui-select__option--disabled {
+  cursor: not-allowed;
+  background-color: #f0f0f0;
+}
+
+.kzui-select__option--disabled:hover {
+  background-color: #f0f0f0;
+}

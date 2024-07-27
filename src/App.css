@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.App .kzui-select {
+  margin-bottom: 20px;
+}
+
+.components{
+  display: flex;
+  justify-content: space-around;
+}
